@@ -647,7 +647,7 @@ SetInputMethod -English
 	Изменить расположение пользовательских папок в корень любого диска на выбор с помощью интерактивного меню (только для текущего пользователя)
 	Пользовательские файлы и папки не будут перемещены в новое расположение
 #>
-SetUserShellFolderLocation -Root
+#SetUserShellFolderLocation -Root
 
 <#
 	Select a folder for the location of the user folders manually using a folder browser dialog (current user only)
@@ -669,11 +669,11 @@ SetUserShellFolderLocation -Root
 
 # Save screenshots by pressing Win+PrtScr to the Desktop folder (current user only)
 # Сохранять скриншоты по нажатию Win+PrtScr в папку "рабочий стол" (только для текущего пользователя)
-WinPrtScrFolder -Desktop
+#WinPrtScrFolder -Desktop
 
 # Save screenshots by pressing Win+PrtScr to the Pictures folder (current user only) (default value)
 # Cохранять скриншоты по нажатию Win+PrtScr в папку "Изображения" (только для текущего пользователя) (значение по умолчанию)
-# WinPrtScrFolder -Default
+WinPrtScrFolder -Default
 
 <#
 	Run troubleshooters automatically, then notify
@@ -918,11 +918,11 @@ CheckUWPAppsUpdates
 #region Gaming
 # Disable Xbox Game Bar
 # Отключить Xbox Game Bar
-XboxGameBar -Disable
+#XboxGameBar -Disable
 
 # Enable Xbox Game Bar (default value)
 # Включить Xbox Game Bar (значение по умолчанию)
-# XboxGameBar -Enable
+XboxGameBar -Enable
 
 # Disable Xbox Game Bar tips
 # Отключить советы Xbox Game Bar
