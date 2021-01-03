@@ -276,11 +276,11 @@ PeopleTaskbar -Hide
 
 # Show seconds on the taskbar clock (current user only)
 # Отображать секунды в системных часах на панели задач (только для текущего пользователя)
-SecondsInSystemClock -Show
+#SecondsInSystemClock -Show
 
 # Hide seconds on the taskbar clock (current user only) (default value)
 # Скрывать секунды в системных часах на панели задач (только для текущего пользователя) (значение по умолчанию)
-# SecondsInSystemClock -Hide
+SecondsInSystemClock -Hide
 
 # When I snap a window, do not show what I can snap next to it (current user only)
 # При прикреплении окна не показывать, что можно прикрепить рядом с ним (только для текущего пользователя)
@@ -380,19 +380,19 @@ ControlPanelView -LargeIcons
 
 # Set the Windows mode color scheme to the dark (current user only)
 # Установить цвет режима Windows по умолчанию на темный (только для текущего пользователя)
-WindowsColorScheme -Dark
+#WindowsColorScheme -Dark
 
 # Set the Windows mode color scheme to the light (current user only)
 # Установить режим цвета для Windows на светлый (только для текущего пользователя)
-# WindowsColorScheme -Light
+WindowsColorScheme -Light
 
 # Set the default app mode color scheme to the dark (current user only)
 # Установить цвет режима приложений по умолчанию на темный (только для текущего пользователя)
-AppMode -Dark
+#AppMode -Dark
 
 # Set the default app mode color scheme to the light (current user only)
 # Установить цвет режима приложений по умолчанию на светлый (только для текущего пользователя)
-# AppMode -Light
+AppMode -Light
 
 # Do not show the "New App Installed" indicator
 # Не показывать уведомление "Установлено новое приложение"
@@ -647,7 +647,7 @@ SetInputMethod -English
 	Изменить расположение пользовательских папок в корень любого диска на выбор с помощью интерактивного меню (только для текущего пользователя)
 	Пользовательские файлы и папки не будут перемещены в новое расположение
 #>
-SetUserShellFolderLocation -Root
+#SetUserShellFolderLocation -Root
 
 <#
 	Select a folder for the location of the user folders manually using a folder browser dialog (current user only)
@@ -669,11 +669,11 @@ SetUserShellFolderLocation -Root
 
 # Save screenshots by pressing Win+PrtScr to the Desktop folder (current user only)
 # Сохранять скриншоты по нажатию Win+PrtScr в папку "рабочий стол" (только для текущего пользователя)
-WinPrtScrFolder -Desktop
+#WinPrtScrFolder -Desktop
 
 # Save screenshots by pressing Win+PrtScr to the Pictures folder (current user only) (default value)
 # Cохранять скриншоты по нажатию Win+PrtScr в папку "Изображения" (только для текущего пользователя) (значение по умолчанию)
-# WinPrtScrFolder -Default
+WinPrtScrFolder -Default
 
 <#
 	Run troubleshooters automatically, then notify
@@ -918,11 +918,11 @@ CheckUWPAppsUpdates
 #region Gaming
 # Disable Xbox Game Bar
 # Отключить Xbox Game Bar
-XboxGameBar -Disable
+#XboxGameBar -Disable
 
 # Enable Xbox Game Bar (default value)
 # Включить Xbox Game Bar (значение по умолчанию)
-# XboxGameBar -Enable
+XboxGameBar -Enable
 
 # Disable Xbox Game Bar tips
 # Отключить советы Xbox Game Bar
